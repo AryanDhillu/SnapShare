@@ -5,7 +5,7 @@ const RandomImage = () => {
   const [image, setImage] = useState(null);
   const [views, setViews] = useState(0);
 
-  const UNSPLASH_ACCESS_KEY = 'KZuDndWNxzTeUPJkDtRidZ-TkRJPQ9m1axhxiqUp31k';
+  const UNSPLASH_ACCESS_KEY = 'yOUR_UNSPLASH_API_KEY';
 
   useEffect(() => {
     const fetchRandomImage = async () => {
