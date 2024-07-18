@@ -11,7 +11,7 @@ Clone the repository into your local git:
 
 Install dependencies: npm install
 
-Add environmentVariables
+Add environmentVariables (firebase and unsplash)
 
 
 
