@@ -6,7 +6,7 @@ import { getAnalytics } from 'firebase/analytics';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrOYoAk_aqTUaSkwCltuplLZ2B1oCkZCY",
+  apiKey: "YOUR_FIREBASE_API_KEY",
   authDomain: "snapshare-fb222.firebaseapp.com",
   projectId: "snapshare-fb222",
   storageBucket: "snapshare-fb222.appspot.com",
