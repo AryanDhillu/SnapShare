@@ -1,38 +1,58 @@
-.App {
+
+.central-element h1 {
+  color: #e5e5e5; 
+  text-align: center;
+  padding-top: 10%;
+}
+
+.central-element p {
+  color: #e5e5e5; 
+  text-align: center;
+}
+.central-element h4 {
+  color: #e5e5e5; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.central-element h1 {
+  font-size: 5rem;
+  animation: glowText 1s ease-in-out infinite alternate;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.central-element p {
+  font-size: 1.5rem;
+  animation: glowText 1s ease-in-out infinite alternate;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
   color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  animation: glowBox 1s ease-in-out infinite alternate;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes glowText {
   from {
-    transform: rotate(0deg);
+    text-shadow: 0 0 0 white;
   }
   to {
-    transform: rotate(360deg);
+    text-shadow: 0 0 1.5px white;
   }
 }
+
+@keyframes glowBox {
+  from {
+    box-shadow: 0 0 0 white; 
+  }
+  to {
+    box-shadow: 0 0 5px white;
+  }
+}
+
+
+
+
+
